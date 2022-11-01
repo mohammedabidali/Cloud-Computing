@@ -37,3 +37,16 @@ SAAS - Software as a Service, also known as cloud application services, represen
 ### What IS CapEx and OpEx?
 - Capital expenditure are major purchases for a company or an individual to be used over a long time. This is when you pay for your infrastructure in full. For example when you buy new hardware, or upgrade power in the building etc.
 - Operational expenditure is more day-to-day. For example, the cloud is used as a type of OpEx. You use the cloud to pay for services that you use only, and if you stop usng a service, then you no longer have to pay for it.
+
+
+## Amazon Elastic Compute Cloud (EC2)
+EC2 is a virtual server in the AWS Infrastructure. It provides scalable computing capacity and eliminates your need to invest in hardware up front, so you can develop and deploy applications faster.
+
+### EC2 instance set-up
+Locate and launch an EC2 Instance
+EC2 specifications:
+- Name and tags: follow this convention - eng130_name
+- Application and OS Images: browse for ubuntu 18.04 LTS image, or just find it in your recent imagies if you have used it before.
+- Instance type: keep at default of t2.micro
+- Key pair: select `eng130`
+- 
