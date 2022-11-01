@@ -42,11 +42,36 @@ SAAS - Software as a Service, also known as cloud application services, represen
 ## Amazon Elastic Compute Cloud (EC2)
 EC2 is a virtual server in the AWS Infrastructure. It provides scalable computing capacity and eliminates your need to invest in hardware up front, so you can develop and deploy applications faster.
 
+### Setting up key pair in .ssh folder
+- cd .ssh
+- nano eng130.pem
+- copy over the key pair and then save the file
+- chmod 400 eng130.pem
+
 ### EC2 instance set-up
 Locate and launch an EC2 Instance
 EC2 specifications:
 - Name and tags: follow this convention - eng130_name
-- Application and OS Images: browse for ubuntu 18.04 LTS image, or just find it in your recent imagies if you have used it before.
-- Instance type: keep at default of t2.micro
+- Application and OS images: browse for `ubuntu 18.04 LTS` image, or just find it in your recent imagies if you have used it before.
+- Instance type: keep at default of `t2.micro`
 - Key pair: select `eng130`
-- 
+- Network settings: Allow for both `ssh` and `http` traffic from the internet. Click on edit and change the security name to follow the convention. E.g. `eng130_name_sg`
+- Configuration storage: keep it at default of `8GiB`
+- Finally click `Launch instance`
+
+### Connecting to EC2 Instance
+- Click on your instance and then click connect.
+- Click on SSH client tab
+- follow the instructions to connect
+
+### Setting up nginx and reverse proxy in EC2 instance
+- pwd, whoami, uname -a (to see if its working)
+- sudo apt-get update -y
+- sudo apt-get upgrade -y
+- sudo upt install nginx -y
+- Find the IP address of your EC2 instance and paste it into a new browser to see if it worked. (Can find the IP address after clicking `connect` on AWS interface
+- sudo systemctl status nginx (to check status of nginx)
+- sudo nano /etc/nginx/sites-available/default (change the proxy_pass to port 3000)
+- sudp nginx -t (test if nginx is working. Should have this response: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok,
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+- sudo systemctl restart nginx
