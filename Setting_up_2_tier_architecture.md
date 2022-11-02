@@ -24,3 +24,5 @@
 - `echo $DB_HOST` - to see if the variable has been created
 - `node seeds/seed.js` - so you can see the data
 - `npm start`
+11. Create AMI for the mongodb server on AWS
+12. Click on mongodb server and then click on actions, create AMI
