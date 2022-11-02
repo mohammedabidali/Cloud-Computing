@@ -17,7 +17,7 @@ Run these commands after getting into instance:
 - `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
 - `sudo apt-get install nodejs -y`
 - `sudo nano /etc/nginx/sites-available/default` - Once inside delete everything using `ctrl + k` and paste this instead. Replace `8080` for local host under `proxy_pass`:
-- server {
+- `server {
     listen 80 default_server;
     listen [::]:80 default_server;
 
@@ -35,7 +35,7 @@ Run these commands after getting into instance:
         proxy_set_header Host $host;
         proxy_cache_bypass $http_upgrade;
     }
-}
+}`
 - `sudo nginx -t` - to test if nginx is ok
 - `sudo systemctl restart nginx`
 - `cd app`
