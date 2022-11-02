@@ -35,8 +35,7 @@ Run these commands after getting into instance:
         proxy_set_header Host $host;
         proxy_cache_bypass $http_upgrade;
     }
-}
-```
+}```
 - `sudo nginx -t` - to test if nginx is ok
 - `sudo systemctl restart nginx`
 - `cd app`
