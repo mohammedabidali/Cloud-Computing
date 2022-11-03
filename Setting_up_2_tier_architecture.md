@@ -53,6 +53,7 @@ can optimize, organize, and configure access to your data to meet your specific 
 - 
 
 ### S3 set up
+![image](https://user-images.githubusercontent.com/89383740/199716410-e067bb65-ab4c-4ff0-aa41-1475b9281447.png)
 -	Install python3 – `sudo apt-get install python3`, `python –version` (if its 2. Something then run this command: `alias python=python3`. Then check the version again and it should be 3. Something.)
 -	Install pip3 – `sudo apt install python3-pip`
 -	Install awscli - `sudo pip3 install awscli`
