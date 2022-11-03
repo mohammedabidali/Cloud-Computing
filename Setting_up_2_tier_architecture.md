@@ -49,8 +49,14 @@ can optimize, organize, and configure access to your data to meet your specific 
 - Hight Security - S3 enables automatic encryption of data as soon as the data uploading process is finished
 
 ### Use cases of s3
-- Backup and Disaster Recovery
-- 
+1. Backup and Disaster Recovery:
+- Amazon S3 is suitable for storing and archiving highly critical data or backup because it is automatically replicated cross-region, providing maximum availability and durability.
+2. Storage for Internet:
+- Amazon S3 is ideal when you want to store application images and videos, and render with faster performance. All AWS services (including Amazon Prime and Amazon.com), as well as Netflix and Airbnb, use Amazon S3 for this purpose.
+3. Analytics:
+- Amazon S3 provides a sophisticated in-place querying functionality to run powerful analytics on data which is in rest on S3.
+4. Data Archiving:
+- You can store and move TBs of data from Amazon S3 to Amazon Glacier’s very cheap and durable archiving solution for compliance purposes. You can also automate when data should be archived with a lifecycle policy that helps reduce efforts to manage data.
 
 ### S3 set up
 ![image](https://user-images.githubusercontent.com/89383740/199716410-e067bb65-ab4c-4ff0-aa41-1475b9281447.png)
