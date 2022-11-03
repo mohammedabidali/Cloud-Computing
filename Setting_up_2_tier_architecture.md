@@ -27,3 +27,27 @@
 - `npm start`
 11. Create AMI for the mongodb server on AWS
 12. Click on mongodb server and then click on actions, create AMI
+
+
+### What is DR?
+A disaster recovery (DR) plan is a formal document created by an organization that contains detailed instructions on how to respond to unplanned incidents
+such as natural disasters, power outages, cyber attacks and any other disruptive events. The plan contains strategies on minimizing the effects of a disaster,
+so an organization will continue to operate – or quickly resume key operations.
+A good disaster recovery plan should enable rapid recovery from disruptions, regardless of the source of the disruption.
+
+### What is Amazon S3?
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
+Customers of all sizes and industries can use Amazon S3 to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile
+applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. Amazon S3 provides management features so that you
+can optimize, organize, and configure access to your data to meet your specific business, organizational, and compliance requirements.
+
+### Benefits of S3
+- Budget-friendly - Amazon provides services based on a pay-as-you-go model. This allows us to pay only for the amount of storage and the time that we use on S3
+- High scalability - Scalability is the measure to increase or decrease the resource as per need
+- High Durability - Durability is the measurement of the likelihood of data loss
+- High availability - Availability is the measure of how readily a service can be used
+- Hight Security - S3 enables automatic encryption of data as soon as the data uploading process is finished
+
+### Use cases of s3
+- Backup and Disaster Recovery
+- 
