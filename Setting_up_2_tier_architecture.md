@@ -13,7 +13,7 @@
 - `sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20`
 - `sudo systemctl status mongod`
 6. Configure the mongod.conf to allow access to everyone or to a specific IP address by updating the `bindIP` (0.0.0.0 to allow for everyone):
-- sudo nano /etc/mongod.conf
+- `sudo nano /etc/mongod.conf`
 7. Make sure its listening on `port 27017`
 8. Save and exit the file and then run these commands:
 - `sudo systemctl restart mongod`
