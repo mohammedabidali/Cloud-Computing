@@ -21,7 +21,7 @@
 - `sudo systemctl status mongod`
 9. Go back to the bash terminal containing the web server
 10. Create a Env variable in the App VM to point to the MongoDB VM:
-- export DB_HOST=mongodb://(IP ADDRESS OF THE DB):27017/posts
+- `export DB_HOST=mongodb://(IP ADDRESS OF THE DB):27017/posts`
 - `echo $DB_HOST` - to see if the variable has been created
 - `node seeds/seed.js` - so you can see the data
 - `npm start`
