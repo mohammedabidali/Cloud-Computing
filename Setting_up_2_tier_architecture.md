@@ -1,8 +1,8 @@
 ![image](https://user-images.githubusercontent.com/89383740/199687279-188244da-0e89-4f24-9908-3c9ff6e44f64.png)
 1. create Ec2 instance for web server (nodejs)
 2. ssh into web app and then run these commands:
-- npm install
-- npm start
+- `npm install`
+- `npm start`
 3. Now check if the app is up and running by pasting the IP address into a new browser.
 4. Create new Ec2 instance for database server (mongodb)
 5. ssh into database server using a new git bash terminal and then run these commands once you are in:
