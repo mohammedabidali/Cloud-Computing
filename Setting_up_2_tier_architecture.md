@@ -48,7 +48,7 @@ can optimize, organize, and configure access to your data to meet your specific 
 - High availability - Availability is the measure of how readily a service can be used
 - Hight Security - S3 enables automatic encryption of data as soon as the data uploading process is finished
 
-### Use cases of s3
+### Use cases of S3
 1. Backup and Disaster Recovery:
 - Amazon S3 is suitable for storing and archiving highly critical data or backup because it is automatically replicated cross-region, providing maximum availability and durability.
 2. Storage for Internet:
